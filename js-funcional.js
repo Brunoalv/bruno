@@ -29,29 +29,6 @@ function showError(elem, callback) {
 	return callback(span);
 }
 
-function isEmpty(input) {
-	var value = input.value;
-
-	if (value === null || value === "" || typeof value === "undefined") return true;
-
-	return false;
-}
-
-function hasErrors(inputs) {
-	var array_length, errors;
-	array_length = inputs.length;
-	errors = false;
-
-	for (var i = 0; i < array_length; i++) {
-		errors = showError(inputs[i], function (span) {
-			span.innerHTML = "Campo vazio";
-			return true;
-		});
-	}
-
-	return errors;
-}
-
 /*document.getElementById("button").onclick = function () {
 	var newArray = map(["band", "album"]);
 	forEach("email", newArray);
