@@ -16,7 +16,7 @@ class Validation {
 	 * Elimina os espaços em branco no começo e no final
 	 *
 	 * @param array $data Recebe os dados a serem validados
-	 * @return array
+	 * @return array Retorna os dados corretamente validados
 	 */
 	public static function trimVal($data)
 	{
@@ -46,22 +46,5 @@ class Validation {
 		}
 		
 		return $data;
-	}
-	
-	/**
-	 * Verifica a quantidade de caracteres
-	 *
-	 * @param mixed $data
-	 * @param int $limit
-	 * @return mixed
-	 */
-	public static function length(array $data, int $limit)
-	{
-		if ($data.length > $limit) {
-			return false;
-		}
-		else {
-			return true;
-		}
 	}
 }
