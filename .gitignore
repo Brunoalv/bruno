@@ -183,6 +183,9 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
+# Visual Studio Code
+.vscode/
+
 
 #############
 ## Python
