@@ -21,7 +21,7 @@ ul {
 }
 
 a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-decoration: none;
 }
 
@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5, h6 {
  ******************************/
 #main-nav {
     background-color: #111;
-    padding: 10px 0;
 }
 
 #main-nav .nav-brand {
@@ -46,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     float: left;
     font-weight: 700;
-    padding: 8px 20px;
+    padding: 15px 20px;
 }
 
 #main-nav ul {
@@ -60,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 #main-nav .nav-link {
     color: #fff;
     display: block;
-    padding: 8px 15px;
+    padding: 15px;
 }
 
 #main-nav .nav-link:hover {
