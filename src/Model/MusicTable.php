@@ -1,7 +1,8 @@
 <?php
 namespace Bruno\Model;
 
-class MusicTable {
+class MusicTable
+{
 	public static function fetch($id)
 	{
 		return Mysql::select('SELECT * FROM music WHERE id = ?', [$id]);
